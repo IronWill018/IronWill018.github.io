@@ -101,6 +101,26 @@ h1 {
     font-weight: bold;
 }
 
+.game-links {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.game-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.game-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 /* Gallery Styles */
 .game-gallery {
     margin: 25px 0;
