@@ -326,6 +326,26 @@ footer {
         padding: 20px;
     }
 
+    .game-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .game-link,
+    .privacy-link,
+    .instagram-link {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    
+    .game-status {
+        width: auto;
+        align-self: flex-start;
+        margin-bottom: 5px;
+    }
+
     .gallery-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 10px;
