@@ -33,12 +33,11 @@ header {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
     text-align: center;
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 160px;
     height: auto;
 }
 
@@ -381,5 +380,10 @@ footer {
 
     .header-with-logo {
         flex-direction: column;
+    }
+
+    .logo {
+        max-width: 120px;
+        margin-bottom: 10px;
     }
 }
