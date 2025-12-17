@@ -130,18 +130,21 @@ h1 {
 }
 
 .privacy-link {
-    background: #007BFF;
-    color: white;
+    background: white;
+    color: #667eea;
+    border: 2px solid #667eea;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85rem;
     text-decoration: none;
-    transition: background 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .privacy-link:hover {
-    background: #0056b3;
+    background: #667eea;
+    color: white;
 }
+
 
 .instagram-link {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
