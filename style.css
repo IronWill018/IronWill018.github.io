@@ -390,4 +390,45 @@ footer {
     .logo {
         max-width: 160px;
     }
+
+    .download-link {
+        background: linear-gradient(135deg, #34a853, #0f9d58);
+        color: white;
+        padding: 8px 18px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+    }
+
+    .download-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+        opacity: 0.95;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    #download {
+        scroll-margin-top: 120px;
+    }
+    
+    #download:target {
+        animation: highlight 1.2s ease;
+    }
+    
+    @keyframes highlight {
+        0% {
+            box-shadow: 0 0 0 rgba(52, 168, 83, 0);
+        }
+        50% {
+            box-shadow: 0 0 25px rgba(52, 168, 83, 0.6);
+        }
+        100% {
+            box-shadow: 0 0 0 rgba(52, 168, 83, 0);
+        }
+    }
 }
