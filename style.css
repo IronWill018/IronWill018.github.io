@@ -392,7 +392,8 @@ footer {
     }
 
     .download-link {
-        background: linear-gradient(135deg, #34a853, #0f9d58);
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea, #764ba2);
         color: white;
         padding: 8px 18px;
         border-radius: 20px;
@@ -404,7 +405,7 @@ footer {
 
     .download-link:hover {
         transform: translateY(-2px);
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 22px rgba(102, 126, 234, 0.4);
         opacity: 0.95;
     }
 
