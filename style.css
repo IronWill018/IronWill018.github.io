@@ -129,6 +129,24 @@ h1 {
     transition: color 0.3s ease;
 }
 
+.download-link {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.download-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(102, 126, 234, 0.4);
+    opacity: 0.95;
+}
+
 .privacy-link {
     background: white;
     color: #667eea;
@@ -390,26 +408,9 @@ footer {
     .logo {
         max-width: 160px;
     }
+}
 
-    .download-link {
-        display: inline-block;
-        background: linear-gradient(135deg, #667eea, #764ba2);
-        color: white;
-        padding: 8px 18px;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        font-weight: bold;
-        text-decoration: none;
-        transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
-    }
-
-    .download-link:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 22px rgba(102, 126, 234, 0.4);
-        opacity: 0.95;
-    }
-
-    html {
+html {
         scroll-behavior: smooth;
     }
     
@@ -432,4 +433,4 @@ footer {
             box-shadow: 0 0 0 rgba(52, 168, 83, 0);
         }
     }
-}
+
