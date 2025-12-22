@@ -490,10 +490,6 @@ footer {
         background-clip: text;
     }
     
-    .hero-description {
-        font-size: 1rem;
-    }
-    
     .hero-cta {
         padding: 15px 35px;
         font-size: 1.05rem;
