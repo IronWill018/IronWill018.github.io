@@ -40,7 +40,7 @@ header {
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 140px;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -52,14 +52,13 @@ header {
 h1 {
     font-size: 2.5rem;
     color: white;
-    margin-bottom: 8px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.9);
     margin: 0;
     font-weight: 400;
