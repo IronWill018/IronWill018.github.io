@@ -31,6 +31,10 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.privacy-policy-header {
+    text-align: center;
+}
+
 .header-with-logo {
     display: flex;
     align-items: center;
