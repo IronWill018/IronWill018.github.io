@@ -919,3 +919,5 @@ pubmatic.com, 95054, RESELLER, 5d62403b186f2ace
 netmarvel.com, 1011828, RESELLER, ca3509163a633862
 
 dauup.com, 34222, RESELLER, 4daba13e2b0dfd9
+
+triplelift.com, 14823, RESELLER, 6c33edb13117fd86
